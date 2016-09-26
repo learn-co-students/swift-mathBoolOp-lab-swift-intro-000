@@ -14,31 +14,37 @@
 /*: Question 1
 ### 1. Add two Doubles
 */
-// write your code here
-
+let a = 12.0
+let b = 10.0
+ 
+var c = a + b
 
 /*: Question 2
 ### 2. Add an Int to a Double
 */
-// write your code here
+let d = 7
+let e = 10.0
+var f = Double(d) + e
 
 
 /*: Question 3
 ### 3. Compare two Ints for equality
 */
-// write your code here
+let g = 8
+
+d == g
 
 
 /*: Question 4
 ### 4. Compare two Doubles for equality
 */
-// write your code here
+a == b
 
 
 /*: Question 5
 ### 5. Compare an Int and a Double equality
 */
-// write your code here
+g == a
 
 
 /*: Question 6
