@@ -9,50 +9,78 @@
  * [Booleans and Operators](https://github.com/learn-co-curriculum/swift-booleans-readme)
  * [Conditionals](https://github.com/learn-co-curriculum/swift-conditionals-readme)
  
-
+*/
 
 /*: Question 1
 ### 1. Add two Doubles
 */
-// write your code here
-
-
+func addDoubles(_ double1: Double,_ double2: Double) {
+    print(double1 + double2)
+}
+ 
+addDoubles(2.01, 1.1)
 /*: Question 2
 ### 2. Add an Int to a Double
 */
 // write your code here
 
-
+ func intDouble(_ int1: Int,_ double2: Double) {
+ print(Double(int1) + double2)
+ }
+ 
+ intDouble(2, 1.1)
 /*: Question 3
 ### 3. Compare two Ints for equality
 */
 // write your code here
-
-
+func compareInts(_ a: Int,_ b: Int) -> Bool {
+    if(a == b){
+        return true
+    }
+    else{
+        return false
+    }
+}
+print(compareInts(2, 2))
 /*: Question 4
 ### 4. Compare two Doubles for equality
 */
 // write your code here
-
+func compareDoubles(_ a: Double,_ b: Double) -> Bool {
+    if(a == b){
+        return true
+    }
+    else{
+        return false
+    }
+}
+print(compareDoubles(2, 2.2))
 
 /*: Question 5
 ### 5. Compare an Int and a Double equality
 */
 // write your code here
-
+func compareIntDouble(_ a: Int,_ b: Double) -> Bool {
+    if(Double(a) == b){
+        return true
+    }
+    else{
+        return false
+    }
+}
+print(compareIntDouble(3, 3.0))
 
 /*: Question 6
 ### 6. Compare 3 and 3.5 for equality (NB what do you have to be mindful of in this case?)
 */
 // write your code here
 
-
 /*: Question 7
 ### 7. Compare 3 and 3.5 for equality and 6.1 and 7 for inequality
 */
 // write your code here
 
-
+(3 == 3.5) && (6.1 == 7)
 /*: Question 8
 ### 8. Write code expressing "if a less than b or x is greater than or equal to y"
 */
@@ -93,5 +121,3 @@
 ### 14. Call average_i with values 1, 3, and 5 and test if the result is both greater than 1 and less than 5.
 */
 // write your code here
-
-*/
