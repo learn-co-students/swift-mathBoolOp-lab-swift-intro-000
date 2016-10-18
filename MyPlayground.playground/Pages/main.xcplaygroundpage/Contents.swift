@@ -76,8 +76,10 @@ func sumOf3(a: Int, b: Int, c: Int) -> Int {
 /*: Question 10
 ### 10. Write a function average_i which returns the average of three Ints as an Int
 */
-// write your code here
-
+func average_i(a: Int, b: Int, c: Int) -> Int {
+    return (a + b + c) / 3
+ }
+ 
 
 /*: Question 11
 ### 11. Use the return value of the function written for Question 10 in a boolean expression
