@@ -61,14 +61,17 @@ Double(3) == 3.5
 /*: Question 8
 ### 8. Write code expressing "if a less than b or x is greater than or equal to y"
 */
-// write your code here
+(a < b) || (x >=y)
 
 
 /*: Question 9
 ### 9. Write a function which returns the sum of three Ints
 */
-// write your code here
-
+func sumOf3(a: Int, b: Int, c: Int) -> Int {
+    return a + b + c
+ }
+ 
+ 
 
 /*: Question 10
 ### 10. Write a function average_i which returns the average of three Ints as an Int
