@@ -84,13 +84,15 @@ func average_i(a: Int, b: Int, c: Int) -> Int {
 /*: Question 11
 ### 11. Use the return value of the function written for Question 10 in a boolean expression
 */
-// write your code here
-
+average_i <= 102
 
 /*: Question 12
 ### 12. Write a function average_f which returns the average of three Ints as a Float
 */
-// write your code here
+ func average_f(a: Int, b: Int, c: Int) -> Float {
+ return (a + b + c) / 3
+ }
+ 
 
 
 /*: Question 13
