@@ -103,6 +103,6 @@ average_f(a: 1, b: 3, c: 5)
 /*: Question 14
 ### 14. Call average_i with values 1, 3, and 5 and test if the result is both greater than 1 and less than 5.
 */
-// write your code here
+(average_i(a: 1, b: 3, c: 5) > 1) && (average_i(a: 1, b: 3, c: 5) < 5) 
 
 */
