@@ -5,46 +5,51 @@
  
  ### Readings associated with this lab
  
- * [Switch Statements]https://github.com/learn-co-curriculum/swift-switchStatement-readme)
- * [Booleans and Operators](https://github.com/learn-co-curriculum/swift-booleans-readme)
- * [Conditionals](https://github.com/learn-co-curriculum/swift-conditionals-readme)
+ * [Switch Statements]https:github.com/learn-co-curriculum/swift-switchStatement-readme)
+ * [Booleans and Operators](https:github.com/learn-co-curriculum/swift-booleans-readme)
+ * [Conditionals](https:github.com/learn-co-curriculum/swift-conditionals-readme)
  
 
 
 /*: Question 1
 ### 1. Add two Doubles
 */
-// write your code here
-
+var gradeAvg = 85.6
+var gpa: Double = 3.79
+ 
+ 
 
 /*: Question 2
 ### 2. Add an Int to a Double
 */
-// write your code here
-
+var height = 6.5
+var length = 10
+ height + Double(length)
 
 /*: Question 3
 ### 3. Compare two Ints for equality
 */
-// write your code here
-
+var agePerson1 = 22
+ var agePerson2 = 22
+ 
+ agePerson1 == agePerson2
 
 /*: Question 4
 ### 4. Compare two Doubles for equality
 */
-// write your code here
+12.5 == 12.5
 
 
 /*: Question 5
 ### 5. Compare an Int and a Double equality
 */
-// write your code here
+2 == 2.5
 
 
 /*: Question 6
 ### 6. Compare 3 and 3.5 for equality (NB what do you have to be mindful of in this case?)
 */
-// write your code here
+Double(3) == 3.5
 
 
 /*: Question 7
