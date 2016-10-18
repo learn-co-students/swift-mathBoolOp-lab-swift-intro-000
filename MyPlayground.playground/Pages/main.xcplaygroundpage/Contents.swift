@@ -55,7 +55,7 @@ Double(3) == 3.5
 /*: Question 7
 ### 7. Compare 3 and 3.5 for equality and 6.1 and 7 for inequality
 */
-// write your code here
+ (Double(3) == 3.5) && (6.1 != Double(7))
 
 
 /*: Question 8
