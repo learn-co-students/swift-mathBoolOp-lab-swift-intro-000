@@ -5,7 +5,7 @@
  
  ### Readings associated with this lab
  
- * [Switch Statements]https://github.com/learn-co-curriculum/swift-switchStatement-readme)
+ * [Switch Statements](https://github.com/learn-co-curriculum/swift-switchStatement-readme)
  * [Booleans and Operators](https://github.com/learn-co-curriculum/swift-booleans-readme)
  * [Conditionals](https://github.com/learn-co-curriculum/swift-conditionals-readme)
  
@@ -14,7 +14,7 @@
 /*: Question 1
 ### 1. Add two Doubles
 */
-// write your code here
+	// write your code here
 
 
 /*: Question 2
