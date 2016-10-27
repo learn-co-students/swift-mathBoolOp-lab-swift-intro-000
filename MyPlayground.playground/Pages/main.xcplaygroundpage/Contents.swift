@@ -14,62 +14,69 @@
 /*: Question 1
 ### 1. Add two Doubles
 */
-// write your code here
+let double1 = 3.3
+let double2 = 4.4
+let sum = double1 + double2
+ 
 
 
 /*: Question 2
 ### 2. Add an Int to a Double
 */
-// write your code here
+let first =5.5
+ let second = 5
+ let sum = first + Double(second)
 
 
 /*: Question 3
 ### 3. Compare two Ints for equality
 */
-// write your code here
+5>3
 
 
 /*: Question 4
 ### 4. Compare two Doubles for equality
 */
-// write your code here
-
+5.5 < 8.8
 
 /*: Question 5
 ### 5. Compare an Int and a Double equality
 */
-// write your code here
+Doubl(5) < 5.5
 
 
 /*: Question 6
 ### 6. Compare 3 and 3.5 for equality (NB what do you have to be mindful of in this case?)
 */
-// write your code here
+Double(3) < 3.5
 
 
 /*: Question 7
 ### 7. Compare 3 and 3.5 for equality and 6.1 and 7 for inequality
 */
-// write your code here
+Double(3)>=3.5 && 6.1<=7
 
 
 /*: Question 8
 ### 8. Write code expressing "if a less than b or x is greater than or equal to y"
 */
-// write your code here
+a<b || x>=y
 
 
 /*: Question 9
 ### 9. Write a function which returns the sum of three Ints
 */
-// write your code here
+func sum(number1: Int, number2: Int, number3: Int) -> Int {
+ return number1 + number2 + number3
+ }
+ 
 
 
 /*: Question 10
 ### 10. Write a function average_i which returns the average of three Ints as an Int
 */
-// write your code here
-
+func average_i(int1: Int, int2: Int, int3: Int) -> Int {
+ return int1 + int2+ int3/3
 
 /*: Question 11
 ### 11. Use the return value of the function written for Question 10 in a boolean expression
