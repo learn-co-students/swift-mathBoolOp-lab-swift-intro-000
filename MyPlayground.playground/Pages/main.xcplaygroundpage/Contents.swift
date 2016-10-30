@@ -127,6 +127,6 @@ func average_f (l: Int, m: Int, n: Int) -> Float
 ### 13. Call average_f with values 1, 3, and 5 and test if the result equals 3.0
 */
 average_f (l: 1, m: 3, n: 5)
-
+//lab complete
 
 
