@@ -14,13 +14,51 @@
 /*: Question 1
 ### 1. Add two Doubles
 */
-// write your code here
-
+ 
+ 
+ 3.45 + 4.5
+ 
+ Double(5) + 5.6
+ 
+ 10 == 20
+ 
+ 3.4 == 5.3
+ 
+ 4 == Int(4.67)
+ 
+ Double(3) == 3.5
+ 
+ Double(3) < 3.5 && 6.1 == Double(7)
+ 
+ var a: Int = 1
+ var b: Int = 2
+ var x: Int = 3
+ var y: Int = 4
+ 
+ if(a < b || x > y) {
+ print("Passed")
+ }
+ 
+ func sumUp(a: Int, b: Int, c: Int) -> Int {
+ return a + b + c
+ }
+ sumUp(a: 2, b: 3, c: 4)
+ 
+ func returnAverage(a: Int, b: Int, c: Int) -> Float {
+ return Float((a + b + c) / 3)
+ }
+ returnAverage(a: 2, b: 3, c: 4)
+ 
+ returnAverage(a: 1, b: 3, c: 5)
+ 
+ var check = returnAverage(a: 1, b: 3, c: 5)
+ check > 1 && check < 5
+ 
 
 /*: Question 2
 ### 2. Add an Int to a Double
 */
-// write your code here
+xxx
 
 
 /*: Question 3
@@ -94,4 +132,4 @@
 */
 // write your code here
 
-*/
+
