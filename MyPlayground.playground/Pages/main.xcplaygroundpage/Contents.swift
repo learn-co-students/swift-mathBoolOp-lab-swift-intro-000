@@ -1,69 +1,62 @@
-/*: Outline
- 
- 
- # Switch Statements
- 
- ### Readings associated with this lab
- 
- * [Switch Statements]https://github.com/learn-co-curriculum/swift-switchStatement-readme)
- * [Booleans and Operators](https://github.com/learn-co-curriculum/swift-booleans-readme)
- * [Conditionals](https://github.com/learn-co-curriculum/swift-conditionals-readme)
- 
-
-
-/*: Question 1
-### 1. Add two Doubles
-*/
-// write your code here
+var a = 5.7 + 2.3
+print(a)
 
 
 /*: Question 2
 ### 2. Add an Int to a Double
 */
-// write your code here
+var x = 5
+let b = 7.8
+var c = Double(x) + 7.8
 
 
 /*: Question 3
 ### 3. Compare two Ints for equality
 */
-// write your code here
+3 < 4
 
 
 /*: Question 4
 ### 4. Compare two Doubles for equality
 */
-// write your code here
-
+6.7 <= 2.3
 
 /*: Question 5
 ### 5. Compare an Int and a Double equality
 */
-// write your code here
+Double(5) == 5.0
 
 
 /*: Question 6
 ### 6. Compare 3 and 3.5 for equality (NB what do you have to be mindful of in this case?)
 */
 // write your code here
+Double(3) == 3.5
 
 
 /*: Question 7
 ### 7. Compare 3 and 3.5 for equality and 6.1 and 7 for inequality
 */
 // write your code here
+Double(3) == 3.5
+6.1 != Double(7)
 
 
 /*: Question 8
 ### 8. Write code expressing "if a less than b or x is greater than or equal to y"
 */
 // write your code here
-
+var y = 8.2
+if a < b || x > y
 
 /*: Question 9
 ### 9. Write a function which returns the sum of three Ints
 */
-// write your code here
+func summation(one: Int, two: Int, three: Int) -> Int {
+    return one + two + three
+}
 
+summation(one: 5, two: 1, three: 12)
 
 /*: Question 10
 ### 10. Write a function average_i which returns the average of three Ints as an Int
@@ -94,4 +87,4 @@
 */
 // write your code here
 
-*/
+
