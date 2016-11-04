@@ -14,7 +14,10 @@
 /*: Question 1
 ### 1. Add two Doubles
 */
-// write your code here
+var a = 8.0
+var b = 9.0
+var c = a + b 
+print 
 
 
 /*: Question 2
