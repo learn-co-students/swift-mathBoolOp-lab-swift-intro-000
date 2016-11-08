@@ -15,7 +15,7 @@
 ### 1. Add two Doubles
 */
 // write your code here
-
+10.10 + 10
 
 /*: Question 2
 ### 2. Add an Int to a Double
