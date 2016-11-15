@@ -92,12 +92,19 @@ func average_i(number1: Int, number2: Int, number3: Int) -> Int{
 */
 // write your code here
 
- func
+ var average = average_i(number1: 1, number2: 2, number3: 3);
+ 
+ average > 7
 
 /*: Question 12
 ### 12. Write a function average_f which returns the average of three Ints as a Float
 */
 // write your code here
+ 
+ func average_f(num1: Int, num2: Int, num3: Int) -> Float {
+ let sum = num1 + num2 + num3;
+ return Float(sum / 3);
+ }
 
 
 /*: Question 13
@@ -105,10 +112,14 @@ func average_i(number1: Int, number2: Int, number3: Int) -> Int{
 */
 // write your code here
 
-
+ var avg_f = average_f(num1: 1, num2: 3, num3: 5);
+ (avg_f == 3.0)
 /*: Question 14
 ### 14. Call average_i with values 1, 3, and 5 and test if the result is both greater than 1 and less than 5.
 */
 // write your code here
+ var avg = average_i(num1: 1, num2: 3, num3: 5);
+ (avg > 1 && avg < 5)
+ 
 
 */
