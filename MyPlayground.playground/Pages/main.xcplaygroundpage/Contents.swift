@@ -16,30 +16,30 @@
 */
 // write your code here
 
-
+print(2 + 2)
 /*: Question 2
 ### 2. Add an Int to a Double
 */
 // write your code here
 
-
+2 + 2.0
 /*: Question 3
 ### 3. Compare two Ints for equality
 */
 // write your code here
 
-
+2 = 2
 /*: Question 4
 ### 4. Compare two Doubles for equality
 */
 // write your code here
 
-
+2.0 = 2.0
 /*: Question 5
 ### 5. Compare an Int and a Double equality
 */
 // write your code here
-
+2 = 2.0
 
 /*: Question 6
 ### 6. Compare 3 and 3.5 for equality (NB what do you have to be mindful of in this case?)
