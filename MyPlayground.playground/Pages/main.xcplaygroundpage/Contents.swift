@@ -119,7 +119,7 @@ if a<b || x>=y
 /*: Question 13
 ### 13. Call average_f with values 1, 3, and 5 and test if the result equals 3.0
 */
-// write your code here
+/// write your code here
 
  func average(numbers: Int...) -> Double {
  var x = 1
