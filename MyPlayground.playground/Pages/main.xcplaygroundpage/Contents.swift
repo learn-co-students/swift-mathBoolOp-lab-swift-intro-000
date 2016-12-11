@@ -15,7 +15,9 @@
 ### 1. Add two Doubles
 */
 // write your code here
-
+var double1 = 5.5
+var double2 = 6.4
+double1 + double2
 
 /*: Question 2
 ### 2. Add an Int to a Double
@@ -94,4 +96,4 @@
 */
 // write your code here
 
-*/
+
