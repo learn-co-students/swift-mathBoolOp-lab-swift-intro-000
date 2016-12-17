@@ -14,14 +14,12 @@
 /*: Question 1
 ### 1. Add two Doubles
 */
-// write your code here
-
+ 
 
 /*: Question 2
 ### 2. Add an Int to a Double
 */
 // write your code here
-
 
 /*: Question 3
 ### 3. Compare two Ints for equality
@@ -82,7 +80,6 @@
 */
 // write your code here
 
-
 /*: Question 13
 ### 13. Call average_f with values 1, 3, and 5 and test if the result equals 3.0
 */
@@ -93,5 +90,5 @@
 ### 14. Call average_i with values 1, 3, and 5 and test if the result is both greater than 1 and less than 5.
 */
 // write your code here
-
 */
+
