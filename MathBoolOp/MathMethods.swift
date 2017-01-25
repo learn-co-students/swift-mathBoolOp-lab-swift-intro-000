@@ -60,7 +60,7 @@ class MathMethods {
         return (a + b + c) / 3
     }
     
-    
+    // Added some additional notes for a test
     
     
     
