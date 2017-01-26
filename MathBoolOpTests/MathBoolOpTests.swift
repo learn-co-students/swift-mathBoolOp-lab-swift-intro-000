@@ -31,8 +31,8 @@ class MathBoolOpTests: XCTestCase {
     
     // #2
     func testAddWithIntAndDouble() {
-        let result = test.add(a: 5, b: 25.5)
-        let result2 = test.add(a: 1, b: 99.9)
+        let result = test.add2(a: 5, b: 25.5)
+        let result2 = test.add2(a: 1, b: 99.9)
         XCTAssertEqual(result, 30, "25.5 + 5 when 25.5 is converted to an Int should equal 30.")
         XCTAssertEqual(result2, 100, "1 + 99.9 when 99.9 is converted to an Int should equal 100.")
     }
@@ -47,8 +47,8 @@ class MathBoolOpTests: XCTestCase {
     
     // #4
     func testIsEqualDouble() {
-        let resultTrue = test.isEqual(a: 2.5, b: 2.5)
-        let resultFalse = test.isEqual(a: 1.2, b: 1.5)
+        let resultTrue = test.isEqual2(a: 2.5, b: 2.5)
+        let resultFalse = test.isEqual2(a: 1.2, b: 1.5)
         XCTAssertTrue(resultTrue, "2.5 is equal to 2.5, this should return true.")
         XCTAssertFalse(resultFalse, "1.2 is not equal to 1.5, this should return false.")
     }

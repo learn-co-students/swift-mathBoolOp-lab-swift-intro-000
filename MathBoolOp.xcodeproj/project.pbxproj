@@ -161,6 +161,7 @@
 					};
 					7D5A17C41E26B94700034C1F = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4T87K25SZU;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 7D5A17B01E26B94700034C1F;
 					};
@@ -374,6 +375,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4T87K25SZU;
 				INFOPLIST_FILE = MathBoolOpTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JimCampagno.Swift.MathBoolOpTests;
@@ -388,6 +390,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4T87K25SZU;
 				INFOPLIST_FILE = MathBoolOpTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JimCampagno.Swift.MathBoolOpTests;
@@ -416,6 +419,7 @@
 				7D5A17D01E26B94700034C1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D5A17D11E26B94700034C1F /* Build configuration list for PBXNativeTarget "MathBoolOpTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +428,7 @@
 				7D5A17D31E26B94700034C1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
