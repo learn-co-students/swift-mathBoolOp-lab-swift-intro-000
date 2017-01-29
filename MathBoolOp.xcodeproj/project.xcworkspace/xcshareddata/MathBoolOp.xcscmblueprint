@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9E8440CE122C875B673C1A668C66A3A75C23B9D1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9E8440CE122C875B673C1A668C66A3A75C23B9D1" : 9223372036854775807,
+    "85B2A90768D6FB17E18C7E23CEE2A021725F4D9A" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "484BA6A0-3DE5-400D-B2AE-A6B1F3B22724",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9E8440CE122C875B673C1A668C66A3A75C23B9D1" : "swift-mathBoolOp-lab-swift-intro-000\/",
+    "85B2A90768D6FB17E18C7E23CEE2A021725F4D9A" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MathBoolOp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MathBoolOp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:othmansafarini\/swift-conditionals-lab-swift-intro-000.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "85B2A90768D6FB17E18C7E23CEE2A021725F4D9A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:othmansafarini\/swift-mathBoolOp-lab-swift-intro-000.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9E8440CE122C875B673C1A668C66A3A75C23B9D1"
+    }
+  ]
+}
