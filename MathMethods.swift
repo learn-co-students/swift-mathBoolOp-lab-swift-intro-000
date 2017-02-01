@@ -12,6 +12,8 @@ import Foundation
 class MathMethods {
     
     
+    
+    
     func add(a: Double, b: Double) -> Double {
         let sum = a+b
         return sum
@@ -20,7 +22,7 @@ class MathMethods {
     // 2
     func add(a: Int, b: Double) -> Int {
         let sum = a + Int(b)
-        return sum
+    return sum
     }
     
     //3
@@ -57,8 +59,18 @@ class MathMethods {
         let averageCalc = (a + b + c)/3
         return averageCalc
     }
-    
-    
-    
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
