@@ -11,14 +11,17 @@ import Foundation
 
 class MathMethods {
     
-    
-    
-    
-    
-    // Implement your functions here.
-    
-    
-    
-    
-
+    func addIn(a: Double, b:Double) -> Double {
+        print(a / b)
+        return (a / b)
+    }
+  
 }
+
+
+
+
+
+
+
+
