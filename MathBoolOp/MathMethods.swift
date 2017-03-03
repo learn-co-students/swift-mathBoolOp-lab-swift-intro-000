@@ -25,7 +25,7 @@ class MathMethods {
     
     }
     func questionFive() ->String{
-        return "a"
+        return "d"
     }
     func compare(a :Double, b: Double) ->Bool{
         if (a>b) || (a>Double(100)){
