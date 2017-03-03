@@ -47,8 +47,8 @@ class MathBoolOpTests: XCTestCase {
     
     // #4
     func testIsEqualDouble() {
-        let resultTrue = test.isEqual(a: 2.5, b: 2.5)
-        let resultFalse = test.isEqual(a: 1.2, b: 1.5)
+        let resultTrue = test.isEqualDouble(a: 2.5, b: 2.5)
+        let resultFalse = test.isEqualDouble(a: 1.2, b: 1.5)
         XCTAssertTrue(resultTrue, "2.5 is equal to 2.5, this should return true.")
         XCTAssertFalse(resultFalse, "1.2 is not equal to 1.5, this should return false.")
     }
