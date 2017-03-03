@@ -26,7 +26,7 @@ class MathMethods {
     
     // 2. Create a function, add(ab) which takes in two arguments. The first parameter is named a of type Int. The second parameter is named b of type Double. This function should return back an Int value. In your implementation of this function you should return back the result of adding both a and b together. Hint: You will have to convert one type to another in your implementation.
    
-    func testAddWithIntAndDouble(a: Int, b: Double) -> Int {
+    func add(a: Int, b: Double) -> Int {
         return a + Int(b);
     }
     
@@ -34,14 +34,14 @@ class MathMethods {
     
    // 3. Create a function, isEqual(ab) which takes in two arguments. The parameters names should be a and b and both parameters should be of type Int. This function should return back a Bool value. In your implementation of this function, you should return either true or false depending on one condition. Are both a and b equal to each other?
     
-    func testIsEqual(a: Int, b: Int) -> Bool {
+    func isEqual(a: Int, b: Int) -> Bool {
         return a == b
     }
     
     
    //  4. This question is very similar to the prior question (#3), except for one different. We will be working with Doubles as the type of our arguments, and not Ints. Create a function, isEqual(ab) which takes in two arguments. The parameter names should be a and b, both of type Double. This function will return back a Bool and determine whether or not the values passed in are equal to one another.
     
-    func testIsEqualDouble(a: Double, b: Double) -> Bool {
+    func isEqual(a: Double, b: Double) -> Bool {
         return a == b
     }
     
@@ -59,7 +59,10 @@ class MathMethods {
      d - Both a & c. -- CORRECT ANSWER
     
     */
-     
+    
+    func questionFive() -> String {
+        return "d"
+    }
      
   
     
