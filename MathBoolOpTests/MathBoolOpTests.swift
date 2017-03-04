@@ -23,6 +23,7 @@ class MathBoolOpTests: XCTestCase {
     
     // #1
     func testAdd() {
+	
         let result = test.add(a: 5, b: 5)
         let result2 = test.add(a: 0, b: -3)
         XCTAssertEqual(result, 10, "5 + 5 is equal to 10.")
