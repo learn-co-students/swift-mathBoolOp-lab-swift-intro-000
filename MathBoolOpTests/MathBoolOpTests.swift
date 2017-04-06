@@ -54,10 +54,10 @@ class MathBoolOpTests: XCTestCase {
     }
     
     // #5
-    func testQuestionFive() {
-        let result = test.questionFive()
-        XCTAssertEqual(result, "d", "You can only compare equality of two values that are of the same type. You can convert one type to be of the same type as the other and then make a comparison.")
-    }
+ //   func testQuestionFive() {
+ //       let result = test.questionFive()
+ //       XCTAssertEqual(result, "d", "You can only compare equality of two values that are of the same type. You can convert one type to be of the same type as the other and then make a comparison.")
+ //   }
     
     // #6
     func testCompare() {
