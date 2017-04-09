@@ -12,7 +12,7 @@ import Foundation
 class MathMethods {
     
     
-    
+    //yay
     
     // 1.
     func add(a: Double,b: Double) -> Double {
