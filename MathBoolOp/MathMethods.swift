@@ -13,7 +13,7 @@ class MathMethods {
     
     
     //yay
-    
+    //One more try for local green light
     // 1.
     func add(a: Double,b: Double) -> Double {
         return a + b
