@@ -18,7 +18,7 @@ Open up the `MathBoolOp.xcodeproj` file. Once in Xcode, navigate to the `MathMet
 
 **4.** This question is very similar to the prior question (#3), except for one different. We will be working with `Double`s as the type of our arguments, and not `Int`s. Create a function, `isEqual(a:b:)` which takes in two arguments. The parameter names should be `a` and `b`, both of type `Double`. This function will return back a `Bool` and determine whether or not the values passed in are equal to one another.
 
-**5.**You should notice that a function has already been created for you (relating to this question). The name of the function is `questionFive()`. It takes in no arguments and returns a `String` value. It's up to you to read the following question and come up with an answer choosing from either a, b, c or d. If you think the answer is c, then you should `return "c"` in your implementation.
+**5.** Create a function called `questionFive()`. It takes in no arguments and returns a `String` value. It's up to you to read the following question and come up with an answer choosing from either a, b, c or d. If you think the answer is c, then you should `return "c"` in your implementation.
 
 Question: Can you make an equality check (==) with the following two values. 6.1 and 7.  Meaning, are we allowed (will it compile) if we write this code, `6.1 == 7`.
 
