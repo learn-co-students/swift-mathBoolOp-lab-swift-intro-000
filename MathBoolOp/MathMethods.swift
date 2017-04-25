@@ -22,8 +22,8 @@ class MathMethods {
         return c
     }
     
-    func add(a: Int, b: Double) -> Double {
-        let c = Double(a) + b
+    func add(a: Int, b: Double) -> Int {
+        let c = a + Int(b)
         return c
     }
     
@@ -50,7 +50,7 @@ class MathMethods {
     }
     
     func compare(a: Double, b: Double) -> Bool {
-        if a < b || a > 100 {
+        if a < b || a >= 100 {
             return true
         }
         else{
