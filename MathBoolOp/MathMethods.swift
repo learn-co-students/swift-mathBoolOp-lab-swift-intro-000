@@ -17,8 +17,13 @@ class MathMethods {
     
     // Implement your functions here.
     
+    func add(a:Int, b:Int) -> Int{
+        
+        return a+b
+    }
     
-    
-    
+    func add(a:Int, b:Double) -> Double {
+        return Double(a) + b
+    }
 
 }
