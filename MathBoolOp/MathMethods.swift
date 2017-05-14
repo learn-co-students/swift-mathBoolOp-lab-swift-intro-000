@@ -11,52 +11,55 @@ import Foundation
 
 class MathMethods {
     
+    func add(a:Double,b:Double)->Double{
+        return a + b }
     
-    
-    
-    
-    func add(a:Double, b:Double)->Double{
-        return a + b
-    }
-
-    
-    
-    func add1(a:Int, b:Double)-> Int {
+    func add(a:Int,b:Double)->Int{
         return a + Int(b)
     }
-    func isEqual(a:Int, b:Int)->Bool{
-        if a == b  {
-            return true } else {
-            return false
-        }
-            }
-    func isEqual1(a:Double, b:Double)->Bool {
+    
+   func isEqual(a:Int,b:Int)->Bool{
+    if a == b {
+        return true} else {
+        return false }
+    }
+    func isEqual(a:Double,b:Double)->Bool {
         if a == b {
             return true } else {
-            return false
+            return false }
+        
         }
-        }
-    func compare(a:Double, b:Double)->Bool {
-        if a < b || a > 100 {
-            return true } else {
-            return false
-        }
-        }
-    func average(a:Int,b:Int,c:Int)->Int {
-        return (a + b + c) / 3
-    }
     func questionFive()->String {
-        return "c"
+        return "d"
     }
-    func compare1(a:Double, b:Double)->Bool {
+    
+    func compare(a:Double,b:Double)->Bool {
         if a < b || a >= 100 {
             return true } else {
-            return false }
+            return false
         }
-    func average1(a:Int,b:Int,c:Int)->Int{
-        return ((a + b + c)/3)
     }
+        func average(a:Int,b:Int,c:Int)->Int {
+            return ((a+b+c)/3)
         }
+        }
+
+
+
+
+    
+
+    
+    	
+    
+    
+    
+    
+    
+    
+    
+    
+           
 
 
 
