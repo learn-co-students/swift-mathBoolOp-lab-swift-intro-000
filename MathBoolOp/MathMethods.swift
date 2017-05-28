@@ -12,13 +12,21 @@ import Foundation
 class MathMethods {
     
     
+    func add(a: Double, b: Double) -> Double {
+        return a+b
+    }
+    
+    func add(a:Int, b:Double) -> Int {
+        return a + Int(b)
+    }
     
     
-    
-    // Implement your functions here.
-    
-    
-    
-    
-
+    func isEqual(a:Int, b: Int) -> Bool {
+        if a==b {
+            return true
+        }
+        else {
+            return false
+        }
+    }
 }
