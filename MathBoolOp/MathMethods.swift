@@ -29,4 +29,28 @@ class MathMethods {
             return false
         }
     }
+    func isEqual(a:Double, b: Double) -> Bool {
+        if a==b {
+            return true
+        }
+        else {
+            return false
+        }
+    }
+    func questionFive() -> String{
+        return "d"
+    }
+    
+    func compare(a : Double, b : Double) -> Bool {
+        if a<b || a>=100.00 {
+            return true
+        }
+        else{
+            return false
+        }
+    }
+    func average(a: Int, b: Int, c: Int) -> Int {
+        return Int((a+b+c)/3)
+    }
+
 }
