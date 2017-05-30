@@ -11,12 +11,39 @@ import Foundation
 
 class MathMethods {
     
+    func add(a: Double, b: Double) -> Double {
+        return a + b
+    }
     
+    func add(a: Int, b: Double) -> Int {
+        return a + Int(b)
+    }
+    func isEqual(a: Int, b: Int) ->Bool {
+        if(a == b) {
+            return true
+        }
+        return false
+    }
+    func isEqual(a: Double, b: Double) ->Bool {
+        if(a == b) {
+            return true
+        }
+        return false
+    }
     
-    
-    
-    // Implement your functions here.
-    
+    func questionFive() ->String {
+        return "d"
+    }
+    func compare(a: Double, b: Double) ->Bool {
+        if(a < b || a >= Double(100)) {
+            return true
+        }
+        return false
+    }
+    func average(a: Int, b: Int, c: Int) ->Int{
+        return (a+b+c)/3
+    }
+
     
     
     
