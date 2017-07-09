@@ -14,9 +14,6 @@ class MathMethods {
     
     
     
-    var a = 5.0
-    var b = 5.0
-    
     func add(a:Double, b:Double) -> Double {
         return (a+b)
     }
