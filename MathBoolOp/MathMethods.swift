@@ -34,7 +34,16 @@ class MathMethods {
     func questionFive()-> String{
         return "d"
         }
-func average(a: Int, b: Int, c: Int) -> Int{
+    func compare(a: Double, b: Double) -> Bool {
+        if a < b {
+            return true
+        }else if a >= 100 {
+                return true
+        }else{
+            return false
+        }
+    }
+    func average(a: Int, b: Int, c: Int) -> Int{
     return (a+b+c)/3
     }
 }
