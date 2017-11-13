@@ -11,14 +11,11 @@ import Foundation
 
 class MathMethods {
     
+    func add(a: Double, b: Double) -> Double {
+        return a + b
+    }
     
-    
-    
-    
-    // Implement your functions here.
-    
-    
-    
-    
-
+    func add(a: Int, b: Double) -> Int {
+        return a + Int(b)
+    }
 }
