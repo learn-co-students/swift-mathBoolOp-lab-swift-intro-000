@@ -11,10 +11,10 @@ import Foundation
 class MathMethods {
     
     func add(a: Double, b: Double) -> Double {
-        return a + b
+        return (a + b)
     }
     func add(a: Int, b: Double) -> Int {
-        return a + Int(b)
+        return (a + Int(b))
     }
     func isEqual(a: Int,b: Int) -> Bool {
         return (a == b)
@@ -34,17 +34,11 @@ class MathMethods {
         }
     }
     func average(a: Int, b: Int, c: Int) -> Int {
-        return (a + b + c) / 3
+        return ((a + b + c) / 3)
     }
     
     // Implement your functions here.
     
-    add(a: 0.0, b: 1.0)
-    add(a: 0, b: 1.0)
-    isEqual(a: 0, b: 0)
-    isEqual(a: 1.0, b: 1.0)
-    questionFive()
-    compare(a: 0.0, b:1.0)
-    average(a: 1, b: 2, c: 3)
+    // ?
     
 }
