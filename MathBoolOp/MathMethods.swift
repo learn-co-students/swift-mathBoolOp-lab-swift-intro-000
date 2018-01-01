@@ -9,6 +9,10 @@
 import Foundation
 
 
+
+    
+    
+    // Implement your functions here.
 class MathMethods {
     func add(a: Double, b: Double)->Double{
         return a + b
@@ -26,7 +30,7 @@ class MathMethods {
         return a == b
     }
     
-    func question5()->String{
+    func questionFive()->String{
         return "d"
     }
     
@@ -38,15 +42,7 @@ class MathMethods {
         }
     }
     
-    func average (a:Int, b:Int, c:Int)->Int{
-        return average(a + b + c) / 3
+    func average (a: Int,b: Int,c: Int) -> Int {
+        return (a + b + c) / 3
     }
-    
-    
-    // Implement your functions here.
-    
-    
-    
-    
-
 }
