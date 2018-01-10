@@ -37,7 +37,7 @@ class MathMethods {
     }
     
     func compare(a: Double, b: Double) -> Bool {
-        return (a < b || a > 100.0) ? true : false
+        return (a < b || a >= 100.0) ? true : false
     }
     
     func average(a: Int, b: Int, c: Int) -> Int {
