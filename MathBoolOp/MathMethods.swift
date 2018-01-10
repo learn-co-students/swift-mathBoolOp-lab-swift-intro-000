@@ -46,4 +46,8 @@ class MathMethods {
     func average(a: Int, b: Int, c: Int) -> Int {
         return ((a+b+c)/3)
     }
+    
+    func questionFive() -> String {
+        return "d"
+    }
 }
