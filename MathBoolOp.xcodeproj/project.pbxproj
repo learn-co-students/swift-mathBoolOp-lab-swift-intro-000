@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4EFB3754200E11F000B9D31F /* MathMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5A17D51E26B97400034C1F /* MathMethods.swift */; };
-		4EFB3755200E12DF00B9D31F /* MathBoolOpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5A17C91E26B94700034C1F /* MathBoolOpTests.swift */; };
 		7D5A17B51E26B94700034C1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5A17B41E26B94700034C1F /* AppDelegate.swift */; };
 		7D5A17B71E26B94700034C1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5A17B61E26B94700034C1F /* ViewController.swift */; };
 		7D5A17BA1E26B94700034C1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D5A17B81E26B94700034C1F /* Main.storyboard */; };
@@ -212,7 +211,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EFB3755200E12DF00B9D31F /* MathBoolOpTests.swift in Sources */,
 				7D5A17D61E26B97400034C1F /* MathMethods.swift in Sources */,
 				7D5A17B71E26B94700034C1F /* ViewController.swift in Sources */,
 				7D5A17B51E26B94700034C1F /* AppDelegate.swift in Sources */,
