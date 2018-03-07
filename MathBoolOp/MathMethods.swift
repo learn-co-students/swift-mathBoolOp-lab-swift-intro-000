@@ -43,11 +43,11 @@ class MathMethods {
    
     
     func questionFive() -> String{
-    return "test"
+    return "d"
     }
     
     func  compare(a:Int, b:Int) ->  Bool {
-        if(a >  b ){
+        if(a <  b ){
             return true
         }
         else if ( a >= 100){
@@ -60,8 +60,8 @@ class MathMethods {
     // Implement your functions here.
     
     func average(a:Int,b:Int, c:Int) -> Int {
-        let c:Int =  (a + b +  c ) / 2
-        return c
+        let c:Double =  Double((a + b +  c ) / 3)
+        return Int(c)
     }
     
     
