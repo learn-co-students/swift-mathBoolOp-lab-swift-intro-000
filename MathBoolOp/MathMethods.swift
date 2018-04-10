@@ -42,7 +42,7 @@ class MathMethods {
     }
     
     func questionFive() -> String {
-       return "b"
+       return "d"
     }
     
     func compare(a: Double, b: Double) -> Bool {
