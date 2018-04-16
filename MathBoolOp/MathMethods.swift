@@ -31,7 +31,7 @@ class MathMethods {
     }
     
     func compare(a: Double, b: Double) -> Bool {
-        if a < b || a > 100 {
+        if a < b || a >= 100 {
             return true
         } else {
             return false
