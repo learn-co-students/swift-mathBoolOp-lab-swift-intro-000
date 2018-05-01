@@ -15,10 +15,62 @@ class MathMethods {
     
     
     
-    // Implement your functions here.
+    func add(a: Double, b: Double) -> Double{
+        
+        let add = a+b
+        
+        return add
+        
+    }
     
+    func add(a: Int, b: Double) -> Double {
+       let add2 = Double(a) + b
+        
+        return add2
+        
+    }
     
+    func isEqual(a:Int, b:Int) -> Bool{
+        
+        if a == b{
+            return true
+        }else{
+            return false
+        }
+        
+        
+    }
     
+    func isEqual(a:Double, b:Double) -> Bool{
+        
+        if a == b{
+            return true
+        }else{
+            return false
+        }
+    }
+    
+    func questionFive() -> String{
+        return "d"
+    }
+    
+    func compare(a: Double, b: Double) -> Bool{
+        
+        if a < b || a >= 100{
+            return true
+        }else{
+            return false
+        }
+        
+    }
+    
+    func average(a:Int, b:Int, c:Int) -> Int{
+        
+        let avg = (a+b+c) / 3
+        
+        return avg
+        
+    }
     
 
 }
