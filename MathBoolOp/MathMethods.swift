@@ -13,8 +13,6 @@ class MathMethods {
     
     
     
-    
-    
     // Implement your functions here.
     
     // #1
