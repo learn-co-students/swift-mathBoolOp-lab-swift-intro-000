@@ -37,7 +37,7 @@ class MathMethods {
     }
     
     // Question 4
-    func isEqual2 (a:Double,b:Double) -> Bool {
+    func isEqual1 (a:Double,b:Double) -> Bool {
         if a == b {
             return true
         } else {
